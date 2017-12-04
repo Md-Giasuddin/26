@@ -1,0 +1,142 @@
+/* Base CSS */
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus,
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="submit"],
+textarea {
+    outline: 0 solid;
+    border: none;
+    background: #F9F9F9;
+    width: 100%;
+    padding: 15px;
+    margin: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+body {}
+
+a:hover {
+    text-decoration: none
+}
+
+textarea {
+    resize: none;
+    height: 150px;
+}
+
+input[type="submit"] {
+    width: auto;
+    background: #4DAEFE;
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 5px;
+}
+
+.section-padding {
+    padding: 60px 0;
+}
+
+
+.white-box {
+    box-shadow: 0 0 10px #ddd;
+    padding: 20px;
+}
+
+.white-box h4 {
+    color: #A8A8A8;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 30px 0;
+    margin-left: 10px;
+}
+
+.green-box {
+    background: #4DAEFE;
+    padding: 20px;
+    min-height: 490px;
+}
+
+.green-box,
+p,
+a {
+    color: #fff;
+}
+
+.green-box a:hover {
+    color: #fff;
+}
+
+.contact-info {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 25px;
+}
+
+.contact-info i.fa {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    font-size: 18px;
+}
+
+.green-box h4 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 30px 0;
+    margin-left: 10px;
+}
+
+
+.social-icon a {
+    display: inline-block;
+    color: #333;
+    background: #fff;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 10px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    margin-top: 20px;
+}
+
+.social-icon a:hover {
+    color: #4DAEFE;
+}
